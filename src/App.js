@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 
 function HelloWorld(){
-  return <h1>HelloWorld</h1>
+  return <h1>Hello World !</h1>
 }
 
 function App() {
