@@ -13,7 +13,9 @@ function App() {
   return (
     <div className="App">
         <HelloWorld/>
+
         <SubTitle/>
+        
         <Lorem/>
     </div>
   );
