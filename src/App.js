@@ -9,7 +9,7 @@ import SubTitle from './components/SubTitle';
   return <h1>Hello World !</h1>
 }*/
 function BtnBootstrap(){
-  return <button type="button" class="btn btn-primary">Inicio</button>;
+  return <a type="button" class="btn btn-primary" href='https://blog.betrybe.com/react/'>Saiba mais</a>;
 }
 
 function App() {
