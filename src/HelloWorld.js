@@ -1,8 +1,8 @@
 import React from 'react';
 
 
-function HelloWorld(){
-    return <h1>Hello World !!</h1>;
+function EstReact(){
+    return <h1>Estudando React</h1>;
 }
 
-export default HelloWorld;
+export default EstReact;

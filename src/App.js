@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import React from 'react';
-import HelloWorld from './HelloWorld';
+import EstReact from './HelloWorld';
 import Lorem from './components/LoremIpsum';
 import SubTitle from './components/SubTitle';
 
@@ -12,10 +12,10 @@ import SubTitle from './components/SubTitle';
 function App() {
   return (
     <div className="App">
-        <HelloWorld/>
+        <EstReact/>
 
         <SubTitle/>
-        
+
         <Lorem/>
     </div>
   );
