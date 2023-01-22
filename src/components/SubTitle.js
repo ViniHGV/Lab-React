@@ -1,7 +1,7 @@
 import React from "react"
 
 function SubTitle(){
-    return <h2>Esse é o Subtítulo</h2>
+    return <h2>O que é React ?</h2>
 }
 
 export default SubTitle;
