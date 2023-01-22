@@ -8,6 +8,9 @@ import SubTitle from './components/SubTitle';
 /*function HelloWorld(){
   return <h1>Hello World !</h1>
 }*/
+function BtnBootstrap(){
+  return <button type="button" class="btn btn-primary">Inicio</button>;
+}
 
 function App() {
   return (
@@ -17,6 +20,8 @@ function App() {
         <SubTitle/>
 
         <Lorem/>
+
+        <BtnBootstrap/>
     </div>
   );
 }
