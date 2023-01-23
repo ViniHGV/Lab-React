@@ -5,6 +5,7 @@ import EstReact from './HelloWorld';
 import Lorem from './components/LoremIpsum';
 import SubTitle from './components/SubTitle';
 import Planets from './components/planets';
+import PlanetsList from './components/planets/planets';
 
 /*function HelloWorld(){
   return <h1>Hello World !</h1>
@@ -23,9 +24,7 @@ function App() {
          <BtnBootstrap/>
       </div>
 
-      <div className='ListPlanets'>
         <Planets/>
-      </div>
     </div>
   );
 }
