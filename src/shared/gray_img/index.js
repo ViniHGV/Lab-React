@@ -1,14 +1,14 @@
 import React, { Fragment } from "react";
 import Planets from "./index";
 
-const GraImg = (props) => {
+const Planet = (props) => {
     return (
-        <div>
+        <div onClick={() => props.ClickPlanet(props.name)}>
             <h3>{props.name}</h3>
             <p>{props.description}</p>
-            <img src={props.img_url} className="Img"></img>
+            <img src={props.img_url} className="Img" ></img>
         </div>
     )
 }
 
-export default GraImg;
+export default Planet;
