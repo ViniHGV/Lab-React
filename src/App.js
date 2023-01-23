@@ -1,8 +1,6 @@
 import './App.css';
 import React from 'react';
-import EstReact from './HelloWorld';
-import Lorem from './components/LoremIpsum';
-import SubTitle from './components/SubTitle';
+import EstReact from './EstReact';
 import PlanetsList from './components/planets/planets';
 
 function BtnBootstrap(){
@@ -13,9 +11,8 @@ function App() {
   return (
     <div className="App">
       <div className='EstReact'>
-         <EstReact/>
-         <SubTitle/>
-         <Lorem/>
+        <EstReact/>
+        
          <BtnBootstrap/>
       </div>
 

@@ -3,7 +3,11 @@ import Planets from "./index";
 
 const GraImg = (props) => {
     return (
-        <img src={props.img_url} className="Img"></img>
+        <div>
+            <h3>{props.name}</h3>
+            <p>{props.description}</p>
+            <img src={props.img_url} className="Img"></img>
+        </div>
     )
 }
 
