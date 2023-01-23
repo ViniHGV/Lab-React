@@ -1,9 +1,15 @@
-import React from "react";
+import React, { Fragment } from "react";
 import Planets from "./index";
 
 const PlanetsList = () => {
     return (
-        <Planets/>
+        <Fragment>
+            <div  className="ListPlanets">
+                <h3>Lista de planetas</h3>
+                <Planets/>
+                <Planets/>
+            </div>
+        </Fragment>
     )
 }
 
