@@ -7,7 +7,6 @@ const PlanetsList = () => {
             <div  className="ListPlanets">
                 <h3>Lista de planetas</h3>
                 <Planets/>
-                <Planets/>
             </div>
         </Fragment>
     )
