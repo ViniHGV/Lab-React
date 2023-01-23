@@ -1,9 +1,21 @@
-.App {
+.EstReact {
   text-align: center;
   font-family: 'Times New Roman', Times, serif;
   width: 400px;
-  margin: auto;
   border: 1px solid rgb(149, 149, 149) ;
+  margin: auto;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.ListPlanets{
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  width: 400px;
+  border: 1px solid rgb(149, 149, 149) ;
+  margin: auto;
   padding: 20px;
   align-items: center;
   justify-content: center;

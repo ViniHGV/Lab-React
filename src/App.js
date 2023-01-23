@@ -4,6 +4,7 @@ import React from 'react';
 import EstReact from './HelloWorld';
 import Lorem from './components/LoremIpsum';
 import SubTitle from './components/SubTitle';
+import Planets from './components/planets';
 
 /*function HelloWorld(){
   return <h1>Hello World !</h1>
@@ -15,13 +16,16 @@ function BtnBootstrap(){
 function App() {
   return (
     <div className="App">
-        <EstReact/>
+      <div className='EstReact'>
+         <EstReact/>
+         <SubTitle/>
+         <Lorem/>
+         <BtnBootstrap/>
+      </div>
 
-        <SubTitle/>
-
-        <Lorem/>
-
-        <BtnBootstrap/>
+      <div className='ListPlanets'>
+        <Planets/>
+      </div>
     </div>
   );
 }
