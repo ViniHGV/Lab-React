@@ -1,7 +1,7 @@
 import React from "react";
 import GrayImg from "../../shared/gray-img";
 
-const Planets = () => {
+const Planet = () => {
     return(
         <>
             <h2>Mercúrio</h2>
@@ -11,4 +11,4 @@ const Planets = () => {
     )
 }
 
-export default Planets;
+export default Planet;

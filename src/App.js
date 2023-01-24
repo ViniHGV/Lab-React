@@ -1,8 +1,8 @@
 import './App.css';
 import React from 'react';
 import EstReact from './components/EstReact'
-import PlanetList from './components/planets';
-import Planets from './components/planets/planet';
+import Planets from './components/planets';
+import Planet from './components/planets/planet';
 
 
 function App() {
@@ -14,8 +14,8 @@ function App() {
       </div>
 
       <div className='Planets'>
-        <PlanetList/>
         <Planets/>
+        <Planet/>
       </div>
 
     </div>

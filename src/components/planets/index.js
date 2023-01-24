@@ -1,6 +1,6 @@
 import React from "react";
 
-const PlanetList = () => {
+const Planets = () => {
     return (
         <>
             <h1>Planet List</h1>
@@ -8,4 +8,4 @@ const PlanetList = () => {
     )
 }
 
-export default PlanetList;
+export default Planets;
