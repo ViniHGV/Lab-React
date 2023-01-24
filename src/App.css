@@ -1,11 +1,11 @@
 *{
   padding: 0;
   margin: 0;
+  font-family: 'Times New Roman', Times, serif;
 }
 
-.EstReact {
+.EstReact, .Planets {
   text-align: center;
-  font-family: 'Times New Roman', Times, serif;
   width: 500px;
   border: 1px solid rgb(149, 149, 149) ;
   margin: auto;
@@ -13,19 +13,11 @@
   align-items: center;
   justify-content: center;
   margin-top: 10px;
+  margin-bottom: 10px;
 }
 
-.ListPlanets{
-  text-align: center;
-  font-family: 'Times New Roman', Times, serif;
-  height: auto;
-  width: 500px;
-  border: 1px solid rgb(149, 149, 149) ;
-  margin: auto;
-  padding: 20px;
-  margin-top: 10px;
+.img{
+  width:450px ;
 }
 
-.Img{
-  width:400px;
-}
+
