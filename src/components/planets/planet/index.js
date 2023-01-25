@@ -1,6 +1,6 @@
 import React from "react";
 import GrayImg from "../../shared/gray-img";
-import DescriptionWithLink from "../../description";
+import DescriptionWithLink from "../../shared/description";
 
 const Planet = (props) => {
     return(
