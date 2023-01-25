@@ -1,10 +1,10 @@
 import React from "react";
 import Planet from "./planet";
 
-
 const Planets = () => {
     return (
         <>
+
             <h1>Planet List</h1>
             <hr/>
             <Planet title = "Mercurio"
