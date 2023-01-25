@@ -8,7 +8,7 @@ import Planet from './components/planets/planet';
 function App() {
   return (
     <div className="App">
-
+      
       <div className='EstReact'>
         <EstReact/>
       </div>
