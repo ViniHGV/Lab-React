@@ -41,11 +41,12 @@ class Planets extends React.Component {
                     ClickonPlanet={this.state.Planets[0].ClickonPlanet}
                 />
                 <hr />
-                <Planet title="Vênus"
-                    description="Vénus ou Vênus é o segundo planeta do Sistema Solar em ordem de distância a partir do Sol, orbitando-o a cada 224,7 dias. Recebeu seu nome em homenagem à deusa romana do amor e da beleza Vénus, equivalente a Afrodite."
-                    link="https://pt.wikipedia.org/wiki/V%C3%A9nus_(planeta)"
-                    img_url="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/PIA23791-Venus-RealAndEnhancedContrastViews-20200608_%28cropped2%29.jpg/280px-PIA23791-Venus-RealAndEnhancedContrastViews-20200608_%28cropped2%29.jpg"
-                    ClickonPlanet={ClickonPlanet}
+                <Planet 
+                    title = {this.state.Planets[1].title}
+                    description = {this.state.Planets[1].description}
+                    link={this.state.Planets[1].link}
+                    img_url={this.state.Planets[1].img_url}
+                    ClickonPlanet={this.state.Planets[1].ClickonPlanet}
                 />
             </>
         )
