@@ -1,15 +1,18 @@
 import React from "react";
 import GrayImg from "../../shared/gray-img";
+import DescriptionWithLink from "../../description";
 
 const Planet = (props) => {
     return(
         <>
             <h2>{props.title}</h2>
-            <p>{props.description}</p>
-            
+            <DescriptionWithLink description = {props.description}
+                link = {props.link}
+            />
             <GrayImg 
             img_url={props.img_url}
             />
+            
 
         </>
     )
