@@ -15,7 +15,6 @@ function App() {
 
       <div className='Planets'>
         <Planets/>
-        <Planet/>
       </div>
 
     </div>
