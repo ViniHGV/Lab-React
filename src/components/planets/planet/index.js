@@ -4,7 +4,7 @@ import DescriptionWithLink from "../../shared/description";
 
 const Planet = (props) => {
     return(
-        <>
+        <div onClick={() => props.ClickonPlanet(props.title)}>
             <h2>{props.title}</h2>
             <DescriptionWithLink description = {props.description}
                 link = {props.link}
@@ -14,7 +14,7 @@ const Planet = (props) => {
             />
             
 
-        </>
+        </div>
     )
 }
 
