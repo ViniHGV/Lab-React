@@ -12,6 +12,11 @@ const Soma = () => {
 }
 
 function EstReact(){
+    const names = ['a','b','c']
+    const renderComp = names.map ((n) => 
+        <p>component {n} </p>
+    )
+
     return(
         <Fragment>
             <h1>Estudando React</h1>
@@ -25,6 +30,11 @@ function EstReact(){
             <div class="d-grid gap-2">
                 <a type="button" className="btn btn-primary" onClick={FirstEvent}>Primeiro Evento</a>
                 <a type="button" className="btn btn-primary" onClick={Soma}>Evento Soma</a>
+            </div>
+            <hr/>
+            <div>
+                <h2>Renderizando múltiplos components</h2>
+                    {renderComp}
             </div>
                 
 
