@@ -12,7 +12,6 @@ class Planets extends React.Component {
                     link: "https://pt.wikipedia.org/wiki/Merc%C3%BArio_(planeta)",
                     img_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Mercury_in_color_c1000_700_430.png/220px-Mercury_in_color_c1000_700_430.png",
                 },
-                
                 {
                     title: "Vênus",
                     description: "Vénus ou Vênus é o segundo planeta do Sistema Solar em ordem de distância a partir do Sol, orbitando-o a cada 224,7 dias. Recebeu seu nome em homenagem à deusa romana do amor e da beleza Vénus, equivalente a Afrodite.",
