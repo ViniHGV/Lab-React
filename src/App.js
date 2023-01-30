@@ -3,7 +3,7 @@ import React from 'react';
 import EstReact from './components/EstReact'
 import Planets from './components/planets';
 import Planet from './components/planets/planet';
-import addPlanet from './components/Contact';
+import FormPlanet from './components/pages/newPlanet';
 
 
 

@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import addPlanet from './Contact';
+import FormPlanet from './pages/newPlanet';
 
 const FirstEvent = () => {
     alert('Primeiro evento no React')
@@ -40,7 +40,8 @@ function EstReact(){
             <hr/>
             <div className='addPlanet'>
                 <h2>Adicionar Planeta</h2>
-                <a type="button" class="btn btn-success">Adicionar Novo Planeta</a>
+                <FormPlanet/>
+                
             </div>
 
         </Fragment>
