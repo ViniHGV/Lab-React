@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react';
+import addPlanet from './Contact';
 
 const FirstEvent = () => {
     alert('Primeiro evento no React')
@@ -36,7 +37,11 @@ function EstReact(){
                 <h2>Renderizando múltiplos components</h2>
                     {renderComp}
             </div>
-                
+            <hr/>
+            <div className='addPlanet'>
+                <h2>Adicionar Planeta</h2>
+                <a type="button" class="btn btn-success">Adicionar Novo Planeta</a>
+            </div>
 
         </Fragment>
     ) 
