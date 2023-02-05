@@ -19,6 +19,7 @@ const Mult = () => {
     return alert(`A conta deu o total de ${num1 * num2}`)
 }
 
+
 function EstReact(){
     const names = ['a','b','c']
     const renderComp = names.map ((n) => 
