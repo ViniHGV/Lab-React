@@ -12,6 +12,13 @@ const Soma = () => {
     return alert(n1+n2)
 }
 
+const Mult = () => {
+    let num1 = parseInt(prompt("Digite o número que deseja multiplicar"))
+    let num2 = parseInt(prompt("Digite o número que deseja multiplicar"))
+
+    return alert(`A conta deu o total de ${num1 * num2}`)
+}
+
 function EstReact(){
     const names = ['a','b','c']
     const renderComp = names.map ((n) => 
@@ -31,6 +38,7 @@ function EstReact(){
             <div class="d-grid gap-2">
                 <a type="button" className="btn btn-primary" onClick={FirstEvent}>Primeiro Evento</a>
                 <a type="button" className="btn btn-primary" onClick={Soma}>Evento Soma</a>
+                <a type="button" className="btn btn-primary" onClick={Mult}>Evento Multiplicação</a>
             </div>
             <hr/>
             <div>
